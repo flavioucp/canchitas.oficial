@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneos</title>
+    <link rel="icon" type="image/x-icon" href="img/logo_canchitas.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/registro.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform:  msFilter "><circle cx="17" cy="4" r="2"></circle><path d="M15.777 10.969a2.007 2.007 0 0 0 2.148.83l3.316-.829-.483-1.94-3.316.829-1.379-2.067a2.01 2.01 0 0 0-1.272-.854l-3.846-.77a1.998 1.998 0 0 0-2.181 1.067l-1.658 3.316 1.789.895 1.658-3.317 1.967.394L7.434 17H3v2h4.434c.698 0 1.355-.372 1.715-.971l1.918-3.196 5.169 1.034 1.816 5.449 1.896-.633-1.815-5.448a2.007 2.007 0 0 0-1.506-1.33l-3.039-.607 1.772-2.954.417.625z"></path></svg>
+
+
+   
+      
+    
+
+
+</head>
+
+<body>
+    <box-icon name='run' ></box-icon>
+
+  <i class="em em---1" aria-role="presentation" aria-label="THUMBS UP SIGN"></i>
+  <i class="em em--1" aria-role="presentation" aria-label="THUMBS DOWN SIGN"></i>
+
+
+    <header>
+        <div class="logo"> 
+            <img src="img/logo_canchitas.png" alt="logo_canchitas" width="300px"> 
+          </div>  
+        
+          <div>
+            <h1 class="logo-principal"> CANCHITAS </h1>
+            <br>
+          </div> 
+    </header>
+
+    <nav class="container-fluid">
+        <a href= "index.html"class="nav-enlace">INICIO</a>
+        <a href= "login.html"class="nav-enlace">USUARIO</a>
+        <a href= "registro.html"class="nav-enlace">REGISTRATE</a>
+        <a href= "torneos.html"class="nav-enlace">TORNEOS</a>   
+    </nav>
+<br>
+    <section>
+        <div class="contenedor">
+
+          <form method="POST" action="informacion.php">
+                                                      <br>
+          <p><strong><h1 id="titulo-torneo"> INSCRIBI A TU EQUIPO</strong> </h1> </p>
+                                                      <br>
+          <label for="nombre"> </label><br>
+          <input type="text"name="nombre"id="nombre" placeholder="Equipo" size="30"><br>
+      
+          <label for="ubicacion"><label><br>
+          <input type="text" name="teléfono" id="Teléfono" placeholder="Telefono De Contacto"size="30"><br>
+          <label for="email"> </label><br>
+          <input type="email" name="email" id="email" placeholder="Nombre Capitan" size="30"><br>
+          <label for="teléfono"> <label><br>
+          <input type="text" name="ubicacion" id="ubicacion" placeholder="Nombre de cancha"size="30"><br>
+            
+
+          <label for="text"> <label><br>
+            <input type="text" name="Horario" id="Horario" placeholder="Horario de comienzo"size="30"><br>
+              
+
+
+            <br>
+          
+          
+          <div class="ingresar">
+            <button id="inscribirse"><a href="#"></a>INSCRIBIRSE</button>
+          </div>
+          <br>
+          <br>
+          <h2>TORNEOS PARA EL 2/11/21</h2>
+         <p>
+          <a  id="link.canchas1"  class="link-torneo"  href="https://www.google.com/maps/place/Maracanito/@-31.414432,-64.1592987,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a2af072f7907:0x95ef3cd3ff0cd212!8m2!3d-31.414432!4d-64.15711" target="_blank" >Torneo en MARACANITO  //"7 jugadores"// 22:00 HS.</a>
+          <br>
+          <a  id="links.canchas2"  class="link-torneo"  href="https://www.google.com/maps/place/Cancha+De+Futbol+Y+Hockey+Y+Escuelita/@-31.4269695,-64.1363025,15z/data=!4m9!1m2!2m1!1sbarrio+altamira+canchas!3m5!1s0x9432bd3ea0d63e5d:0xe617d69b83b7aa8c!8m2!3d-31.4269686!4d-64.1289407!15sChdiYXJyaW8gYWx0YW1pcmEgY2FuY2hhc5IBDGZ1dHNhbF9maWVsZA" target="_blank">Torneo en BARRIO ALTAMIRA //"11 jugadores"//20 HS.</a>
+
+          </p>
+
+ 
+         </section>
+         <br>
+         <footer class="footer"><br>
+          <div> 
+            <em><p>info@canchitascba.com.ar</p>
+              <p>
+                © 2021 Todos los derechos reservados
+            </p> </em> 
+          </div><br>
+        </footer> 
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+             
+    
+</body>
+</html>
+
+
