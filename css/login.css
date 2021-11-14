@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background:linear-gradient(green,white,black);
+    background-size: 200% 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: center;}
+
+body {
+    background-image: url("img/BACK_LOGIN.jpg"); 
+    background-size: cover; }
+
+    
+   
+    
+
+
+h1{ 
+    font-size: 2em ; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: center; 
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .formulario {
+     display: flex;
+     justify-content: center;}
+
+    .ingresar{
+        display: flex;
+        justify-content: center;
+        margin: 10px;}
+
+    .registro{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+h2{ 
+    font-size: 2em ;
+    font-family: "carter";
+    text-align: center; 
+    color: white;
+} 
+
+
+
+@font-face {
+    font-family: "oleo-reg";
+    src: url(OleoScript-Regular.ttf);
+}
+
+label{ font-size: 1em ; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;}
+button{ font-size: 1em ; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    background-color: black;
+    padding: 20px; 
+}
+
+em{
+    color: white; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: center;
+}
+
+#titulo-login {
+    display:flex;
+    justify-content: center;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 10px;
+    border-style: groove;
+}
+
+#ingresar {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 10px;
+    border-style: groove;
+}
+
+
+#registro {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 10px;
+    border-style: groove;
+}

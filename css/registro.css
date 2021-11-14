@@ -1,0 +1,92 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/cesped.jpg)
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 10px;
+}
+
+h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    
+#formulario {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 10px;
+    border-style: groove;
+}
+
+#enviar {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 10px;
+    border-style: groove;
+}
+
+#ver-ubicacion{
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 10px;
+    border-style: groove;
+}
+
+
+
+label{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+input{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid#ccc;
+}
+
+input:focus{
+    border: 1px solid#1668c4;
+}
+input[type:"submit"]{
+    margin-bottom:0;
+    background:#1668c4;
+    color:#fff;
+    border:none;
+}
+

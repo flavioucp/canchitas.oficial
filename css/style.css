@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/cancha.jpg);
+}
+.logo-principal{
+    position: relative;
+ font-family: "carter";
+    font-weight: bolder;
+    color: white;
+
+}
+.titulo-login{
+    color: white;
+}
+.formulario-login{
+    color: white;
+}
+
+h1 {
+    color: rgb(12, 90, 15);
+}
+
+.nav-enlace {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: white;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 30px;
+    border-style: groove;
+    
+}
+.nav-enlace:hover {
+    background: grey 
+      
+}
+nav {
+    background:black;
+    padding: 20PX ;
+    text-align: center;
+}  
+.botones1{
+    color:greenyellow;
+    
+    
+}
+.seccion1{
+    display: flex;
+    background-image: url(../img/equipo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    Background-color: transparent;      
+    padding: 40px;
+    
+}
+
+.seccion1 h1 {
+    position: relative;
+    font-family: "carter";
+    font-weight: bolder;
+    
+}
+
+@font-face {
+    font-family: "carter";
+    src: url(CarterOne-Regular.ttf);
+}
+
+
+.botones2{
+
+    color: greenyellow;
+
+
+}
+.seccion2{
+    display: flex;
+ 
+    flex-wrap: wrap;
+    background-image: url(../img/cancha2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 40px;
+}
+.seccion2 h1{
+    position: relative;
+    font-family: "carter";
+    font-weight: bolder;
+    
+    
+
+}
+.botones0{
+    color: greenyellow;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "carter";
+    font-weight: bolder;
+
+    
+    }
+.seccion2 h1{
+        position: relative;
+        font-family: "carter";
+        font-weight: bolder;}
+.seccion0{
+
+    display: flex;
+    flex-wrap: wrap;
+
+        background-image: url(../img/cancha2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 40px;
+       
+    }
+    
+.link-torneo{
+    color: azure;
+    text-decoration: none;
+}
+
+ 
+
+.footer{
+    position: relative;
+    font-family: "carter";
+    font-weight: bolder;
+
+    }
+
+    
+#titulo-torneo {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 10px;
+    border-style: groove;
+
+}
+
+#inscribirse {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 20px;
+    border-style: groove;
+
+}
+
+#inscribirse {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 20px;
+    border-style: groove;
+}
+
+.corner-button {
+  
+  letter-spacing: .02rem;
+  cursor: pointer;
+  background: linear-gradient(grey, black);
+  border: 0.5rem solid currentColor;
+  padding: 1.5rem 2rem;
+  font-size: 2.2rem;
+  color: white;
+  
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  border-radius: 30px;
+  left: 400px;
+}
+.corner-button:hover {
+  color: rgb(52, 53, 52);
+}
+.corner-button:hover::before {
+  width: 0;
+}
+.corner-button:hover::after {
+  height: 0;
+}
+.corner-button:active {
+  border-width: 0.25rem;
+}
+.corner-button span {
+ 
+  z-index: 2;
+}
+
+
+.corner-button::before {
+  width: calc(100% - 3rem);
+  height: calc(101% + 1rem);
+  top: -0.5rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.corner-button::after {
+  height: calc(100% - 3rem);
+  width: calc(101% + 1rem);
+  left: -0.5rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+
+
+
+
+
