@@ -70,3 +70,40 @@ function checkLength(){
       alert("Debe contener mas de 2 caracteres")
   }
 }
+function CambiarColor(){
+  const parrafo1=document.getElementById ("parrafouno")
+
+  parrafo1.style.color="red"
+}
+function cambiarImagen(){
+  const imagen=document.getElementById ("logo")
+  imagen.src="img/cesped.jpg"
+}
+function mostrarOriginal(){
+  const imagen=document.getElementById ("logo")
+  imagen.src="img/logo_canchitas.png"
+}
+function mostrarDatos () {
+  const nombre2=document.getElementById ("nombre")
+
+  new URL(location.href).searchParams.get('nombre')
+  const params = new URL(location.href).searchParams
+  const nombre = params.get('nombre')
+
+ nombre2.innerHTML=`El nombre de tu equipo es ${nombre}`;
+ 
+
+
+
+ //teléfono,email,ubicacion,Horario
+ 
+}
+
+
+
+
+
+
+
+
+
