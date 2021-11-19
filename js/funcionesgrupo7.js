@@ -71,9 +71,9 @@ function checkLength(){
   }
 }
 function CambiarColor(){
-  const parrafo1=document.getElementById ("parrafouno")
+  var parrafouno=document.getElementById ("parrafouno")
 
-  parrafo1.style.color="red"
+  parrafouno.style.color="red"
 }
 function cambiarImagen(){
   const imagen=document.getElementById ("logo")
