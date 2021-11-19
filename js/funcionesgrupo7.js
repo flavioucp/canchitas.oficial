@@ -71,7 +71,7 @@ function checkLength(){
   }
 }
 function CambiarColor(){
-  var parrafouno=document.getElementById ("parrafouno")
+  const parrafouno=document.getElementById ("parrafouno")
 
   parrafouno.style.color="red"
 }
