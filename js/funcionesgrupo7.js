@@ -77,7 +77,7 @@ function CambiarColor(){
 }
 function cambiarImagen(){
   const imagen=document.getElementById ("logo")
-  imagen.src="img/cesped.jpg"
+  imagen.src="img/balon.png"
 }
 function mostrarOriginal(){
   const imagen=document.getElementById ("logo")
