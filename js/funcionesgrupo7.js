@@ -84,21 +84,19 @@ function mostrarOriginal(){
   imagen.src="img/logo_canchitas.png"
 }
 function mostrarDatos () {
-  const nombre2=document.getElementById ("nombre")
+  const nombre2=document.getElementById ("nombre2")
 
   new URL(location.href).searchParams.get('nombre')
   const params = new URL(location.href).searchParams
   const nombre = params.get('nombre')
 
  nombre2.innerHTML=`El nombre de tu equipo es ${nombre}`;
- 
- 
+ nombre2.style.color=black;
 
-
-
- //teléfono,email,ubicacion,Horario
- 
 }
+
+ 
+
 
   function calculateAge() {
     var d = document.getElementById("nacimiento").value;
