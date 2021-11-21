@@ -92,6 +92,7 @@ function mostrarDatos () {
 
  nombre2.innerHTML=`El nombre de tu equipo es ${nombre}`;
  
+ 
 
 
 
@@ -99,6 +100,20 @@ function mostrarDatos () {
  
 }
 
+  function calculateAge() {
+    var d = document.getElementById("nacimiento").value;
+       var inDate = new Date(d);
+       var anio = inDate.getFullYear();
+       var fec_actual = new Date() ; 
+    var fec_anio = fec_actual.getFullYear() ;
+       var edad   =  fec_anio -anio ;
+        if (edad >= 18) {
+          alert("Acceso permitido, cumplis la edad minima")
+        }else
+       {
+       alert("ACCESO NO VALIDO: no cumplis la edad minima")
+       }
+   }
 
 
 
