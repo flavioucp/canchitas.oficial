@@ -85,13 +85,20 @@ function mostrarOriginal(){
 }
 function mostrarDatos () {
   const nombre2=document.getElementById ("nombre2")
+  const jugadores2=document.getElementById("jugadores2")
+  const cancha2=document.getElementById("cancha2")
+  
 
   new URL(location.href).searchParams.get('nombre')
   const params = new URL(location.href).searchParams
   const nombre = params.get('nombre')
+  const jugadores = params.get('jugadores')
+  const cancha= params.get('cancha')
 
- nombre2.innerHTML=`El nombre de tu equipo es ${nombre}`;
- nombre2.style.color=black;
+ nombre2.innerHTML=`El nombre de tu equipo es "${nombre}"`;
+ jugadores2.innerHTML=`la cantidad de jugadores es "${jugadores}"`;
+ cancha2.innerHTML=`en la cancha de  "${cancha}" `;
+ 
 
 }
 
