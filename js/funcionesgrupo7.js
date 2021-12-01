@@ -119,7 +119,38 @@ function mostrarDatos () {
        alert("ACCESO NO VALIDO: no cumplis la edad minima")
        }
    }
+    function datosregistro(){
+      const nombre3=document.getElementById ("nombre3")
+      const apellido2=document.getElementById("apellido2")
+      const email2=document.getElementById("email2")
+      const usuario2=document.getElementById("usuario2")
+      const contraseña2=document.getElementById("contraseña2")
+      const nacimiento2=document.getElementById("nacimiento2")
+      const coordenadas2=document.getElementById("coordenadas2")
 
+
+      new URL (location.href).searchParams.get('name')
+      const params= new URL(location.href).searchParams
+      const nombre=params.get('name')
+      const apellido = params.get('apellido')
+      const email = params.get('email')
+      const usuario= params.get('usuario')
+      const contraseña= params.get('contraseña')
+      const nacimiento= params.get('nacimiento')
+      const coordenadas= params.get('coordenadas')
+      
+
+      nombre3.innerHTML=`Tu nombre es "${nombre}"`;
+      apellido2.innerHTML=`Tu apellido "${apellido}"`;
+      email2.innerHTML=`Tu email es "${email}"`;
+      usuario2.innerHTML=`Tu usuario es"${usuario}"`;
+      contraseña2.innerHTML=`La contraseña es"${contraseña}"`;
+      nacimiento2.innerHTML=`Tu fecha de nacimiento es"${nacimiento}"`;
+      coordenadas2.innerHTML=`Tu posicion es"${coordenadas}"`;
+
+
+
+    }
 
 
 
