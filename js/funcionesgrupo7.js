@@ -127,6 +127,9 @@ function mostrarDatos () {
       const contraseña2=document.getElementById("contraseña2")
       const nacimiento2=document.getElementById("nacimiento2")
       const coordenadas2=document.getElementById("coordenadas2")
+      const provincia2=document.getElementById("provincia2")
+      const pais2=document.getElementById("pais2")
+
 
 
       new URL (location.href).searchParams.get('name')
@@ -138,6 +141,8 @@ function mostrarDatos () {
       const contraseña= params.get('contraseña')
       const nacimiento= params.get('nacimiento')
       const coordenadas= params.get('coordenadas')
+      const provincia= params.get('provincia')
+      const pais= params.get('pais')
       
 
       nombre3.innerHTML=`Tu nombre es "${nombre}"`;
@@ -147,6 +152,8 @@ function mostrarDatos () {
       contraseña2.innerHTML=`La contraseña es"${contraseña}"`;
       nacimiento2.innerHTML=`Tu fecha de nacimiento es"${nacimiento}"`;
       coordenadas2.innerHTML=`Tu posicion es"${coordenadas}"`;
+      provincia2.innerHTML=`Tu provincia es"${provincia}"`;
+      pais2.innerHTML=`Tu pais"${pais}"`;
 
 
 

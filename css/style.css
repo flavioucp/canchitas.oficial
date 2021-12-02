@@ -33,6 +33,7 @@ h1 {
     font-family: "carter";
     border-radius: 30px;
     border-style: groove;
+   
     
 }
 .nav-enlace:hover {
@@ -40,9 +41,10 @@ h1 {
       
 }
 nav {
-    background:black;
+    background: linear-gradient(grey, black);
     padding: 20PX ;
     text-align: center;
+    height: 79px;
 }  
 .botones1{
     color:greenyellow;
@@ -83,7 +85,7 @@ nav {
 .seccion2{
     display: flex;
  
-    flex-wrap: wrap;
+
     background-image: url(../img/cancha2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -117,7 +119,7 @@ nav {
 .seccion0{
 
     display: flex;
-    flex-wrap: wrap;
+ 
 
         background-image: url(../img/cancha2.jpg);
         background-position: center center;
