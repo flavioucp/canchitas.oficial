@@ -73,7 +73,7 @@ function checkLength(){
 function CambiarColor(){
   const parrafouno=document.getElementById ("parrafouno")
 
-  parrafouno.style.color="red"
+  parrafouno.style.color="greenyellow";
 }
 function cambiarImagen(){
   const imagen=document.getElementById ("logo")
