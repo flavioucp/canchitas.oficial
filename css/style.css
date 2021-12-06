@@ -163,7 +163,20 @@ nav {
     font-weight: bolder;
 
     }
+.texto-footer{
+    position: relative;
+    font-family: "carter";
+    font-weight: bolder;
 
+
+}
+.texto-footer1{
+    position: relative;
+    font-family: "carter";
+    font-weight: bolder;
+
+
+}
     
 #titulo-torneo {
     display: inline-block;
