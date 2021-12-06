@@ -6,7 +6,7 @@
 
 
 header {
-    background:linear-gradient(100deg, green,rgb(80, 75, 75),black);
+    background:linear-gradient(100deg, green,rgb(173, 179, 173),black);
     background-size: 300% 200%;
     animation: BgGradient 10s ease infinite;
     text-align: center;

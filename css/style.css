@@ -11,6 +11,15 @@ body{
  font-family: "carter";
     font-weight: bolder;
     color: white;
+    width: 100%;
+    
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+        
+        font-size: 80px;
+        
+    
 
 }
 .titulo-login{
@@ -47,13 +56,18 @@ nav {
     height: 79px;
 }  
 .botones1{
-    color:greenyellow;
+    color: rgb(243, 245, 240);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "carter";
+    font-weight: bolder;
     
     
 }
 .seccion1{
     display: flex;
-    background-image: url(../img/equipo3.jpg);
+    background-image: url(../img/equipofutbol.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -78,7 +92,13 @@ nav {
 
 .botones2{
 
-    color: greenyellow;
+    color: rgb(243, 245, 240);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "carter";
+    font-weight: bolder;
+
 
 
 }
@@ -86,7 +106,7 @@ nav {
     display: flex;
  
 
-    background-image: url(../img/cancha2.jpg);
+    background-image: url(../img/cancha1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,7 +123,7 @@ nav {
 
 }
 .botones0{
-    color: greenyellow;
+    color: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
     position: relative;
@@ -121,7 +141,7 @@ nav {
     display: flex;
  
 
-        background-image: url(../img/cancha2.jpg);
+        background-image: url(../img/jugador1.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -180,11 +200,26 @@ nav {
     border-style: groove;
 }
 
-.corner-button {
+
+
+.video{
+    height: 303px;
+    height: 300px;
+    border-radius: 40px;
+    
+
+    width:100%;
+    max-width:600px;
+    width:100%;
+    }
+
+
+
+    .corner-button {
   
   letter-spacing: .02rem;
   cursor: pointer;
-  background: linear-gradient(grey, black);
+  background: linear-gradient(100deg, green,rgb(173, 179, 173),black);
   border: 0.5rem solid currentColor;
   padding: 1.5rem 2rem;
   font-size: 2.2rem;
@@ -196,7 +231,7 @@ nav {
   left: 400px;
 }
 .corner-button:hover {
-  color: rgb(52, 53, 52);
+  color: rgb(7, 7, 7);
 }
 .corner-button:hover::before {
   width: 0;
@@ -229,19 +264,6 @@ nav {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-.video{
-    height: 303px;
-    height: 300px;
-    border-radius: 40px;
-    
-
-    width:100%;
-    max-width:600px;
-    width:100%;
-    }
-
-
-
 
 
 
