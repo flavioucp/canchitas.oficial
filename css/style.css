@@ -126,20 +126,17 @@ h1 {
 .seccion2 h1{
         position: relative;
         font-family: "carter";
-        font-weight: bolder;}
+        font-weight: bolder;
+}
 .seccion0{
-
     display: flex;
- 
-
-        background-image: url(../img/jugador1.png);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        padding: 40px;
-       
-    }
+    background-image: url(../img/jugador1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px;
+}
     
 .link-torneo{
     color: azure;
